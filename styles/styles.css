@@ -46,9 +46,10 @@
 .select-autocomplete [aria-selected="true"] {
 	color: white;
 	background-color: #568BB6;
-	.highlight {
-		color: inherit;
-	}
+}
+
+.select-autocomplete [aria-selected="true"] .highlight {
+	color: inherit;
 }
 
 .select-autocomplete input[type="text"] {

@@ -2,6 +2,9 @@
 
 Select dropdown Vue component with autocomplete search ability.
 
+## Demo
+
+https://codepen.io/nescafe62/pen/mdyyQwK
 
 ## Usage
 

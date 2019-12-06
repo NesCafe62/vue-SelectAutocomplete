@@ -16,13 +16,11 @@ Vue.component('select-autocomplete', SelectAutocomplete);
 
 new Vue({
     el: '#app',
-    data() {
-        return {
-            options: [
-                {value: 1, title: 'Option1'},
-                {value: 2, title: 'Option2'},
-            ]
-        };
+    data: {
+        options: [
+            {value: 1, title: 'Option1'},
+            {value: 2, title: 'Option2'},
+        ]
     }
 });
 ```
